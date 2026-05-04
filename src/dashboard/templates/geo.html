@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% set page = 'geo' %}
+{% block title %}GEO{% endblock %}
+
+{% block content %}
+<div class="section">
+  <h2>Wzmianki GEO (AI) — {{ latest_run }}</h2>
+  <p style="color:var(--muted);margin-bottom:1rem;">Kliknij wiersz, aby zobaczyć fragment odpowiedzi.</p>
+  <table id="geoTable">
+    <thead>
+      <tr>
+        <th>Prompt</th>
+        <th>Kategoria</th>
+        {% for eng in geo_engines %}
+        <th>{{ eng }}</th>
+        {% endfor %}
+      </tr>
+    </thead>
+    <tbody>
+    {% for row in geo_table %}
+      <tr class="prompt-row" onclick="toggleExcerpt('exc-{{ loop.index }}', this)" style="cursor:pointer;">
+        <td>{{ row.prompt }}</td>
+        <td>{{ row.category }}</td>
+        {% for eng in geo_engines %}
+          {% set edata = row.engines.get(eng, {}) %}
+          <td>
+            {% if edata.get('matched') %}
+              <span class="check-yes" title="{{ edata.get('mention', '') }}">✓</span>
+            {% else %}
+              <span class="check-no">✗</span>
+            {% endif %}
+          </td>
+        {% endfor %}
+      </tr>
+      <tr id="exc-{{ loop.index }}" class="excerpt-row">
+        <td class="excerpt-cell" colspan="{{ geo_engines|length + 2 }}">
+          {% for eng in geo_engines %}
+            {% set edata = row.engines.get(eng, {}) %}
+            {% if edata.get('matched') and edata.get('excerpt') %}
+              <strong>{{ eng }}:</strong>
+              <em>...{{ edata['excerpt'] }}...</em><br>
+            {% endif %}
+          {% endfor %}
+          {% set has_any = namespace(found=false) %}
+          {% for eng in geo_engines %}{% if row.engines.get(eng, {}).get('matched') %}{% set has_any.found = true %}{% endif %}{% endfor %}
+          {% if not has_any.found %}
+            <span style="color:var(--muted)">Brak wzmianek w tym prompcie.</span>
+          {% endif %}
+        </td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+{% set ambiguous_rows = geo_table | selectattr('engines') | list %}
+<div class="section">
+  <h2>Niejednoznaczne wzmianki (ambiguous)</h2>
+  <p style="color:var(--muted);font-size:0.85rem;">Wzmianki zawierające samo "draminek" bez domeny lub pełnej nazwy.</p>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function toggleExcerpt(id, row) {
+  const exc = document.getElementById(id);
+  if (exc) {
+    exc.classList.toggle('visible');
+    row.style.background = exc.classList.contains('visible') ? '#eff6ff' : '';
+  }
+}
+</script>
+{% endblock %}

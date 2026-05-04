@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% set page = 'overview' %}
+{% block title %}Overview{% endblock %}
+
+{% block content %}
+<div class="section">
+  <h2>Overview — {{ latest_run }}</h2>
+  <div class="hero">
+    <div class="hero-card">
+      <div class="big">{{ seo_top10 }}/{{ total_seo }}</div>
+      <div class="label">fraz w Top 10 Google PL</div>
+    </div>
+    <div class="hero-card">
+      <div class="big">{{ geo_mentions }}/{{ total_geo }}</div>
+      <div class="label">promptów ze wzmianką w AI</div>
+    </div>
+    <div class="hero-card">
+      <div class="big">{{ run_dates|length }}</div>
+      <div class="label">runów historycznych</div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Linki</h2>
+  <nav style="display:flex;gap:1rem;flex-wrap:wrap;">
+    <a href="seo.html" style="background:#1e293b;color:white;padding:.5rem 1rem;border-radius:6px;text-decoration:none;">📊 Tabela SEO</a>
+    <a href="geo.html" style="background:#1e293b;color:white;padding:.5rem 1rem;border-radius:6px;text-decoration:none;">🤖 Tabela GEO</a>
+    <a href="trends.html" style="background:#1e293b;color:white;padding:.5rem 1rem;border-radius:6px;text-decoration:none;">📈 Trendy</a>
+  </nav>
+</div>
+
+{% if run_dates|length > 1 %}
+<div class="section">
+  <h2>Historia runów</h2>
+  <table>
+    <thead><tr><th>Data runu</th></tr></thead>
+    <tbody>
+    {% for d in run_dates|reverse %}
+      <tr><td>{{ d }}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endif %}
+{% endblock %}

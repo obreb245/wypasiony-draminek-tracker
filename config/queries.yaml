@@ -1,0 +1,123 @@
+---
+# 30 fraz SEO do monitorowania w Google PL i Bing PL
+# Kategorie: brand, product, category, local, competitor
+queries:
+  - phrase: "wypasiony draminek"
+    category: brand
+    priority: high
+
+  - phrase: "wypasionydraminek.pl"
+    category: brand
+    priority: high
+
+  - phrase: "draminek sklep"
+    category: brand
+    priority: high
+
+  - phrase: "draminek.pl"
+    category: brand
+    priority: high
+
+  - phrase: "wypasiony draminek opinie"
+    category: brand
+    priority: high
+
+  - phrase: "draminek dla dzieci"
+    category: product
+    priority: high
+
+  - phrase: "duży draminek"
+    category: product
+    priority: high
+
+  - phrase: "draminek jumbo"
+    category: product
+    priority: medium
+
+  - phrase: "draminek oryginalny"
+    category: product
+    priority: medium
+
+  - phrase: "mały draminek"
+    category: product
+    priority: medium
+
+  - phrase: "draminek premium"
+    category: product
+    priority: medium
+
+  - phrase: "dramatyczne picie dla dzieci"
+    category: category
+    priority: medium
+
+  - phrase: "napój dla dzieci draminek"
+    category: product
+    priority: high
+
+  - phrase: "gdzie kupić draminek"
+    category: category
+    priority: high
+
+  - phrase: "draminek cena"
+    category: product
+    priority: high
+
+  - phrase: "draminek sklep internetowy"
+    category: brand
+    priority: high
+
+  - phrase: "draminek zamówienie online"
+    category: category
+    priority: medium
+
+  - phrase: "draminek dostawa"
+    category: category
+    priority: medium
+
+  - phrase: "draminek hurt"
+    category: category
+    priority: medium
+
+  - phrase: "draminek detal"
+    category: category
+    priority: low
+
+  - phrase: "dramatyczny napój"
+    category: category
+    priority: low
+
+  - phrase: "napój dramatyczny Polska"
+    category: category
+    priority: low
+
+  - phrase: "draminek promocja"
+    category: product
+    priority: medium
+
+  - phrase: "draminek wyprzedaż"
+    category: product
+    priority: low
+
+  - phrase: "napoje dla dzieci sklep"
+    category: category
+    priority: low
+
+  - phrase: "napoje dla dzieci online"
+    category: category
+    priority: low
+
+  - phrase: "dobry napój dla dziecka"
+    category: category
+    priority: low
+
+  - phrase: "smaczny napój dla dzieci"
+    category: category
+    priority: low
+
+  - phrase: "bezpieczny napój dla dzieci"
+    category: category
+    priority: low
+
+  - phrase: "draminek nowy smak"
+    category: product
+    priority: medium

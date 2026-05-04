@@ -1,0 +1,58 @@
+---
+# Ustawienia trackera SEO/GEO
+project:
+  name: "Wypasiony Draminek Tracker"
+  version: "1.0.0"
+
+domains_to_track:
+  - "wypasionydraminek.pl"
+  - "draminek.pl"
+
+target_mentions:
+  - "wypasionydraminek.pl"
+  - "wypasiony draminek"
+  - "draminek.pl"
+  - "draminek"
+
+engines:
+  ai:
+    anthropic:
+      model: "claude-sonnet-4-5"
+      max_tokens: 1024
+    openai:
+      model: "gpt-4o"
+      max_tokens: 1024
+    perplexity:
+      model: "llama-3.1-sonar-large-128k-online"
+      max_tokens: 1024
+    gemini:
+      model: "gemini-1.5-pro"
+      max_tokens: 1024
+  seo:
+    google:
+      depth: 100
+      language_code: "pl"
+      location_code: 2616  # Poland
+      max_concurrent: 5
+    bing:
+      count: 50
+      mkt: "pl-PL"
+
+storage:
+  master_csv: "data/master.csv"
+  runs_dir: "data/runs"
+  docs_dir: "docs"
+
+retry:
+  max_attempts: 3
+  backoff_base: 2
+
+mention_context_chars: 50  # chars before and after mention
+
+cost_per_query_pln:
+  anthropic: 0.05
+  openai: 0.08
+  perplexity: 0.03
+  gemini: 0.02
+  google: 0.10
+  bing: 0.05

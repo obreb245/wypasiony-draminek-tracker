@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+{% set page = 'seo' %}
+{% block title %}SEO{% endblock %}
+
+{% block content %}
+<div class="section">
+  <h2>Pozycje SEO — {{ latest_run }}</h2>
+  <div class="filter-bar">
+    <select id="filterEngine" onchange="filterTable()">
+      <option value="">Wszystkie silniki</option>
+      <option value="google">Google</option>
+      <option value="bing">Bing</option>
+    </select>
+    <select id="filterCategory" onchange="filterTable()">
+      <option value="">Wszystkie kategorie</option>
+      <option value="brand">brand</option>
+      <option value="product">product</option>
+      <option value="category">category</option>
+    </select>
+    <select id="filterPriority" onchange="filterTable()">
+      <option value="">Wszystkie priorytety</option>
+      <option value="high">high</option>
+      <option value="medium">medium</option>
+      <option value="low">low</option>
+    </select>
+  </div>
+  <table id="seoTable">
+    <thead>
+      <tr>
+        <th onclick="sortTable(0)">Fraza</th>
+        <th onclick="sortTable(1)">Kategoria</th>
+        <th onclick="sortTable(2)">Priorytet</th>
+        <th onclick="sortTable(3)">Silnik</th>
+        <th onclick="sortTable(4)">Pozycja</th>
+        <th>URL</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for r in seo_table %}
+      <tr data-engine="{{ r.engine }}" data-category="{{ r.category }}" data-priority="{{ r.priority }}">
+        <td>{{ r.query }}</td>
+        <td>{{ r.category }}</td>
+        <td><span class="badge badge-{{ r.priority }}">{{ r.priority }}</span></td>
+        <td>{{ r.engine }}</td>
+        <td class="{{ r.color_class }}">
+          {% if r.position %}
+            {% if r.position|int <= 10 %}🟢{% elif r.position|int <= 30 %}🟡{% else %}⚪{% endif %}
+            {{ r.position }}
+          {% else %}
+            🔴 —
+          {% endif %}
+        </td>
+        <td>
+          {% if r.url %}
+            <a href="{{ r.url }}" target="_blank" rel="noopener" style="color:#3b82f6;word-break:break-all;font-size:0.8rem;">{{ r.url|truncate(60) }}</a>
+          {% endif %}
+        </td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function filterTable() {
+  const engine = document.getElementById('filterEngine').value.toLowerCase();
+  const cat = document.getElementById('filterCategory').value.toLowerCase();
+  const pri = document.getElementById('filterPriority').value.toLowerCase();
+  document.querySelectorAll('#seoTable tbody tr').forEach(row => {
+    const re = row.dataset.engine || '';
+    const rc = row.dataset.category || '';
+    const rp = row.dataset.priority || '';
+    const show = (!engine || re === engine) && (!cat || rc === cat) && (!pri || rp === pri);
+    row.style.display = show ? '' : 'none';
+  });
+}
+
+let sortDir = {};
+function sortTable(col) {
+  const table = document.getElementById('seoTable');
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
+  const dir = sortDir[col] = !(sortDir[col]);
+  rows.sort((a, b) => {
+    const av = a.cells[col]?.textContent.trim() || '';
+    const bv = b.cells[col]?.textContent.trim() || '';
+    const an = parseFloat(av), bn = parseFloat(bv);
+    if (!isNaN(an) && !isNaN(bn)) return dir ? an - bn : bn - an;
+    return dir ? av.localeCompare(bv) : bv.localeCompare(av);
+  });
+  rows.forEach(r => table.querySelector('tbody').appendChild(r));
+}
+</script>
+{% endblock %}

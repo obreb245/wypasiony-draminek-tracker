@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% set page = 'trends' %}
+{% block title %}Trends{% endblock %}
+
+{% block head %}
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js" charset="utf-8"></script>
+{% endblock %}
+
+{% block content %}
+<div class="section">
+  <h2>Trendy SEO — frazy w Top 10 Google PL</h2>
+  <div class="chart-container" id="chartSeo"></div>
+</div>
+
+<div class="section">
+  <h2>Trendy GEO — wzmianki w AI per silnik</h2>
+  <div class="chart-container" id="chartGeo"></div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+(function() {
+  var seoData = {{ plotly_seo }};
+  var geoSeries = {{ plotly_geo_series }};
+
+  Plotly.newPlot('chartSeo', [{
+    x: seoData.x,
+    y: seoData.y,
+    type: 'scatter',
+    mode: 'lines+markers',
+    name: seoData.name,
+    line: { color: '#22c55e', width: 2 },
+    marker: { size: 8 }
+  }], {
+    margin: { t: 20, r: 20, b: 40, l: 40 },
+    paper_bgcolor: 'transparent',
+    plot_bgcolor: 'transparent',
+    yaxis: { title: 'Liczba fraz w top 10', rangemode: 'tozero' },
+    xaxis: { title: 'Data runu' }
+  }, { responsive: true });
+
+  var geoTraces = geoSeries.map(function(s) {
+    return { x: s.x, y: s.y, type: 'scatter', mode: 'lines+markers', name: s.name };
+  });
+  if (geoTraces.length === 0) {
+    geoTraces = [{ x: [], y: [], type: 'scatter', name: 'brak danych' }];
+  }
+  Plotly.newPlot('chartGeo', geoTraces, {
+    margin: { t: 20, r: 20, b: 40, l: 40 },
+    paper_bgcolor: 'transparent',
+    plot_bgcolor: 'transparent',
+    yaxis: { title: 'Liczba wzmianek', rangemode: 'tozero' },
+    xaxis: { title: 'Data runu' }
+  }, { responsive: true });
+})();
+</script>
+{% endblock %}

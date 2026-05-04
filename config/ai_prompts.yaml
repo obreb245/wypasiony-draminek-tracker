@@ -1,0 +1,92 @@
+---
+# 18 promptów GEO do monitorowania wzmianek w AI (ChatGPT, Claude, Perplexity, Gemini)
+prompts:
+  - id: geo_01
+    prompt: "Gdzie można kupić Draminek w Polsce?"
+    category: brand_awareness
+    priority: high
+
+  - id: geo_02
+    prompt: "Co to jest Draminek i gdzie go kupić?"
+    category: brand_awareness
+    priority: high
+
+  - id: geo_03
+    prompt: "Jakie napoje dla dzieci polecasz kupić online?"
+    category: category
+    priority: high
+
+  - id: geo_04
+    prompt: "Poleć sklep internetowy z napojami dla dzieci w Polsce"
+    category: category
+    priority: high
+
+  - id: geo_05
+    prompt: "Czy Wypasiony Draminek to dobry napój dla dzieci?"
+    category: brand_review
+    priority: high
+
+  - id: geo_06
+    prompt: "Jakie są opinie o Draminku?"
+    category: brand_review
+    priority: high
+
+  - id: geo_07
+    prompt: "Gdzie kupić Wypasiony Draminek online?"
+    category: brand_awareness
+    priority: high
+
+  - id: geo_08
+    prompt: "Jaki napój dla dziecka polecasz na urodziny?"
+    category: category
+    priority: medium
+
+  - id: geo_09
+    prompt: "Najlepsze napoje dla dzieci w Polsce ranking"
+    category: category
+    priority: medium
+
+  - id: geo_10
+    prompt: "Bezpieczne napoje dla dzieci – co wybrać?"
+    category: category
+    priority: medium
+
+  - id: geo_11
+    prompt: "Draminek – czy warto kupić?"
+    category: brand_review
+    priority: medium
+
+  - id: geo_12
+    prompt: "Jakie smaki Draminku są dostępne?"
+    category: product
+    priority: medium
+
+  - id: geo_13
+    prompt: "Co wyróżnia Wypasiony Draminek spośród innych napojów?"
+    category: brand_review
+    priority: medium
+
+  - id: geo_14
+    prompt: "Napój dla dzieci na imprezę urodzinową – co polecasz?"
+    category: category
+    priority: low
+
+  - id: geo_15
+    prompt: "Sklep z niespodziankami dla dzieci online Polska"
+    category: category
+    priority: low
+
+  - id: geo_16
+    prompt: "Ciekawy prezent napój dla dziecka"
+    category: category
+    priority: low
+
+  - id: geo_17
+    prompt: "Zabawny napój dla dzieci sklep"
+    category: category
+    priority: low
+
+  - id: geo_18
+    prompt: "Wypasiony Draminek – jak zamówić i ile kosztuje?"
+    category: brand_awareness
+    priority: high
