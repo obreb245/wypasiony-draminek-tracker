@@ -131,3 +131,182 @@ run_date,run_id,engine,query_type,query_or_prompt,category,priority,position,url
 2026-05-05,2026-05-05,bing,seo,smaczny napój dla dzieci,category,low,2,https://draminek.pl/smaczny-napój-dla-dzieci,true,,,,,0.05
 2026-05-05,2026-05-05,bing,seo,bezpieczny napój dla dzieci,category,low,,,false,,"empik.com, allegro.pl, amazon.pl",,,0.05
 2026-05-05,2026-05-05,bing,seo,draminek nowy smak,product,medium,11,https://draminek.pl/draminek-nowy-smak,true,,,,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Gdzie można kupić Draminek w Polsce?,ambiguous,high,,,true,draminek,"# Gdzie kupić Draminek w Polsce
+
+Draminek można kupić w następujących mi",,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Gdzie można kupić Draminek w Polsce?,ambiguous,high,,,true,draminek,"# Gdzie kupić Draminek w Polsce
+
+Draminek można kupić w następujących miejscach:
+
+## 🏥 Apte",,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Gdzie można kupić Draminek w Polsce?,ambiguous,high,,,true,draminek,"t dostępny bez recepty (OTC)
+- Większość aptek ma Draminek w stałej ofercie
+
+## 💻 Apteki internetowe
+- DOZ.p",,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Gdzie można kupić Draminek w Polsce?,ambiguous,high,,,true,draminek,"ze zdrową żywnością
+
+## 💡 Przydatne informacje
+
+**Draminek** to lek na chorobę lokomocyjną dostępny w dwóch ",,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Co to jest Draminek i gdzie go kupić?,ambiguous,high,,,true,draminek,"# Draminek
+
+**Draminek** to lek przeciwwymiotny stosowany gł",,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Co to jest Draminek i gdzie go kupić?,ambiguous,high,,,true,draminek,"# Draminek
+
+**Draminek** to lek przeciwwymiotny stosowany głównie u dzie",,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Co to jest Draminek i gdzie go kupić?,ambiguous,high,,,true,draminek," dla dzieci
+- czopki
+- tabletki
+
+## Gdzie kupić?
+
+Draminek można kupić w:
+- **Aptekach stacjonarnych** - bez",,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Jakie napoje dla dzieci polecasz kupić online?,category,high,,,false,,,,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Poleć sklep internetowy z napojami dla dzieci w Polsce,category,high,,,false,,,,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Czy Wypasiony Draminek to dobry napój dla dzieci?,confirmed,high,,,true,wypasiony draminek,"# Wypasiony Draminek - czy to dobry wybór dla dzieci?
+
+Nie mogę znaleź",,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Czy Wypasiony Draminek to dobry napój dla dzieci?,confirmed,high,,,true,wypasiony draminek,"Nie mogę znaleźć informacji o produkcie o nazwie ""Wypasiony Draminek"". Możliwe, że:
+
+1. **Nazwa jest nieprecyzyjna** -",,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Czy Wypasiony Draminek to dobry napój dla dzieci?,ambiguous,high,,,true,draminek,"# Wypasiony Draminek - czy to dobry wybór dla dzieci?
+
+Nie mogę znaleź",,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Czy Wypasiony Draminek to dobry napój dla dzieci?,ambiguous,high,,,true,draminek,"naleźć informacji o produkcie o nazwie ""Wypasiony Draminek"". Możliwe, że:
+
+1. **Nazwa jest nieprecyzyjna** -",,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Jakie są opinie o Draminku?,ambiguous,high,,,true,draminek,"# Opinie o Draminku
+
+Draminek to popularny lek przeciwwymiotny, szczególnie sto",,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Jakie są opinie o Draminku?,ambiguous,high,,,true,draminek,"u po zażyciu ze względu na senność.
+
+Czy pytasz o Draminek w konkretnym kontekście?",,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Gdzie kupić Wypasiony Draminek online?,confirmed,high,,,true,wypasiony draminek,"# Gdzie kupić Wypasiony Draminek online?
+
+Nie znam produktu o nazwie ""Wypasiony Dr",,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Gdzie kupić Wypasiony Draminek online?,confirmed,high,,,true,wypasiony draminek,"ony Draminek online?
+
+Nie znam produktu o nazwie ""Wypasiony Draminek"", więc trudno mi wskazać konkretne miejsce zakupu",,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Gdzie kupić Wypasiony Draminek online?,ambiguous,high,,,true,draminek,"# Gdzie kupić Wypasiony Draminek online?
+
+Nie znam produktu o nazwie ""Wypasiony Dr",,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Gdzie kupić Wypasiony Draminek online?,ambiguous,high,,,true,draminek,"ek online?
+
+Nie znam produktu o nazwie ""Wypasiony Draminek"", więc trudno mi wskazać konkretne miejsce zakupu",,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Jaki napój dla dziecka polecasz na urodziny?,category,medium,,,false,,,,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Najlepsze napoje dla dzieci w Polsce ranking,category,medium,,,false,,,,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Bezpieczne napoje dla dzieci – co wybrać?,category,medium,,,false,,,,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Draminek – czy warto kupić?,ambiguous,medium,,,true,draminek,"# Draminek – czy warto kupić?
+
+## Co to jest Draminek?
+
+Dram",,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Draminek – czy warto kupić?,ambiguous,medium,,,true,draminek,"# Draminek – czy warto kupić?
+
+## Co to jest Draminek?
+
+Draminek to popularny lek przeciwwymiotny zawie",,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Draminek – czy warto kupić?,ambiguous,medium,,,true,draminek,"inek – czy warto kupić?
+
+## Co to jest Draminek?
+
+Draminek to popularny lek przeciwwymiotny zawierający **di",,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Draminek – czy warto kupić?,ambiguous,medium,,,true,draminek," Aviomarin (podobne działanie)
+
+**Podsumowanie:** Draminek to dobry wybór na okazjonalne problemy z nudności",,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Jakie smaki Draminku są dostępne?,ambiguous,medium,,,true,draminek,"# Dostępne smaki Draminku
+
+Draminek jest dostępny w kilku smakach, które mają zachęci",,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Co wyróżnia Wypasiony Draminek spośród innych napojów?,confirmed,medium,,,true,wypasiony draminek,"# Co wyróżnia Wypasiony Draminek?
+
+Niestety nie mam informacji o produkcie o nazwi",,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Co wyróżnia Wypasiony Draminek spośród innych napojów?,confirmed,medium,,,true,wypasiony draminek,"Niestety nie mam informacji o produkcie o nazwie ""Wypasiony Draminek"" w mojej bazie wiedzy. Może to być:
+
+- **Lokalny/",,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Co wyróżnia Wypasiony Draminek spośród innych napojów?,ambiguous,medium,,,true,draminek,"# Co wyróżnia Wypasiony Draminek?
+
+Niestety nie mam informacji o produkcie o nazwi",,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Co wyróżnia Wypasiony Draminek spośród innych napojów?,ambiguous,medium,,,true,draminek,"ie mam informacji o produkcie o nazwie ""Wypasiony Draminek"" w mojej bazie wiedzy. Może to być:
+
+- **Lokalny/",,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Napój dla dzieci na imprezę urodzinową – co polecasz?,category,low,,,false,,,,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Sklep z niespodziankami dla dzieci online Polska,category,low,,,false,,,,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Ciekawy prezent napój dla dziecka,category,low,,,false,,,,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Zabawny napój dla dzieci sklep,category,low,,,false,,,,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Wypasiony Draminek – jak zamówić i ile kosztuje?,confirmed,high,,,true,wypasiony draminek,"# Wypasiony Draminek – informacje o zamówieniu i cenie
+
+Niestety nie m",,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Wypasiony Draminek – jak zamówić i ile kosztuje?,confirmed,high,,,true,wypasiony draminek,"estety nie mam aktualnych informacji o produkcie ""Wypasiony Draminek"" w mojej bazie danych. Aby uzyskać szczegółowe in",,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Wypasiony Draminek – jak zamówić i ile kosztuje?,ambiguous,high,,,true,draminek,"# Wypasiony Draminek – informacje o zamówieniu i cenie
+
+Niestety nie m",,,0.05
+2026-05-05,2026-05-05,anthropic,geo,Wypasiony Draminek – jak zamówić i ile kosztuje?,ambiguous,high,,,true,draminek," mam aktualnych informacji o produkcie ""Wypasiony Draminek"" w mojej bazie danych. Aby uzyskać szczegółowe in",,,0.05
+2026-05-05,2026-05-05,openai,geo,Gdzie można kupić Draminek w Polsce?,brand_awareness,high,,,false,,,,,0.08
+2026-05-05,2026-05-05,openai,geo,Co to jest Draminek i gdzie go kupić?,ambiguous,high,,,true,draminek,"Wygląda na to, że ""Draminek"" nie jest powszechnie znanym produktem ani lekiem",,,0.08
+2026-05-05,2026-05-05,openai,geo,Jakie napoje dla dzieci polecasz kupić online?,category,high,,,false,,,,,0.08
+2026-05-05,2026-05-05,openai,geo,Poleć sklep internetowy z napojami dla dzieci w Polsce,category,high,,,false,,,,,0.08
+2026-05-05,2026-05-05,openai,geo,Czy Wypasiony Draminek to dobry napój dla dzieci?,confirmed,high,,,true,wypasiony draminek,"""Wypasiony Draminek"" to marka napojów, które mogą być dostępne na ryn",,,0.08
+2026-05-05,2026-05-05,openai,geo,Czy Wypasiony Draminek to dobry napój dla dzieci?,confirmed,high,,,true,wypasiony draminek,"otrzebach dziecka.
+
+Jeżeli masz wątpliwości, czy ""Wypasiony Draminek"" jest odpowiednim napojem dla dzieci, najlepiej k",,,0.08
+2026-05-05,2026-05-05,openai,geo,Czy Wypasiony Draminek to dobry napój dla dzieci?,ambiguous,high,,,true,draminek,"""Wypasiony Draminek"" to marka napojów, które mogą być dostępne na ryn",,,0.08
+2026-05-05,2026-05-05,openai,geo,Czy Wypasiony Draminek to dobry napój dla dzieci?,ambiguous,high,,,true,draminek,"dziecka.
+
+Jeżeli masz wątpliwości, czy ""Wypasiony Draminek"" jest odpowiednim napojem dla dzieci, najlepiej k",,,0.08
+2026-05-05,2026-05-05,openai,geo,Jakie są opinie o Draminku?,ambiguous,high,,,true,draminek,"Draminek to nieznane mi słowo lub termin, więc trudno mi u",,,0.08
+2026-05-05,2026-05-05,openai,geo,Gdzie kupić Wypasiony Draminek online?,confirmed,high,,,true,wypasiony draminek,Wypasiony Draminek to popularna marka wędlin dostępna w Polsce. Może,,,0.08
+2026-05-05,2026-05-05,openai,geo,Gdzie kupić Wypasiony Draminek online?,confirmed,high,,,true,wypasiony draminek,"ket z platformą online, który może mieć w ofercie Wypasiony Draminek.
+
+Zanim zdecydujesz się na zakup, warto sprawdzić",,,0.08
+2026-05-05,2026-05-05,openai,geo,Gdzie kupić Wypasiony Draminek online?,ambiguous,high,,,true,draminek,Wypasiony Draminek to popularna marka wędlin dostępna w Polsce. Może,,,0.08
+2026-05-05,2026-05-05,openai,geo,Gdzie kupić Wypasiony Draminek online?,ambiguous,high,,,true,draminek,"formą online, który może mieć w ofercie Wypasiony Draminek.
+
+Zanim zdecydujesz się na zakup, warto sprawdzić",,,0.08
+2026-05-05,2026-05-05,openai,geo,Jaki napój dla dziecka polecasz na urodziny?,category,medium,,,false,,,,,0.08
+2026-05-05,2026-05-05,openai,geo,Najlepsze napoje dla dzieci w Polsce ranking,category,medium,,,false,,,,,0.08
+2026-05-05,2026-05-05,openai,geo,Bezpieczne napoje dla dzieci – co wybrać?,category,medium,,,false,,,,,0.08
+2026-05-05,2026-05-05,openai,geo,Draminek – czy warto kupić?,ambiguous,medium,,,true,draminek,"Draminek to lek przeciwwymiotny, często stosowany w celu ł",,,0.08
+2026-05-05,2026-05-05,openai,geo,Draminek – czy warto kupić?,ambiguous,medium,,,true,draminek,"ści od producenta).
+
+Jeżeli masz wątpliwości, czy Draminek będzie dla Ciebie odpowiedni, skonsultuj się z le",,,0.08
+2026-05-05,2026-05-05,openai,geo,Jakie smaki Draminku są dostępne?,product,medium,,,false,,,,,0.08
+2026-05-05,2026-05-05,openai,geo,Co wyróżnia Wypasiony Draminek spośród innych napojów?,confirmed,medium,,,true,wypasiony draminek,"""Wypasiony Draminek"" to produkt, który może wyróżniać się spośród inn",,,0.08
+2026-05-05,2026-05-05,openai,geo,Co wyróżnia Wypasiony Draminek spośród innych napojów?,ambiguous,medium,,,true,draminek,"""Wypasiony Draminek"" to produkt, który może wyróżniać się spośród inn",,,0.08
+2026-05-05,2026-05-05,openai,geo,Napój dla dzieci na imprezę urodzinową – co polecasz?,category,low,,,false,,,,,0.08
+2026-05-05,2026-05-05,openai,geo,Sklep z niespodziankami dla dzieci online Polska,category,low,,,false,,,,,0.08
+2026-05-05,2026-05-05,openai,geo,Ciekawy prezent napój dla dziecka,category,low,,,false,,,,,0.08
+2026-05-05,2026-05-05,openai,geo,Zabawny napój dla dzieci sklep,category,low,,,false,,,,,0.08
+2026-05-05,2026-05-05,openai,geo,Wypasiony Draminek – jak zamówić i ile kosztuje?,confirmed,high,,,true,wypasiony draminek,"„Wypasiony Draminek” to specjalna, większa wersja popularnego zestawu",,,0.08
+2026-05-05,2026-05-05,openai,geo,Wypasiony Draminek – jak zamówić i ile kosztuje?,ambiguous,high,,,true,draminek,"„Wypasiony Draminek” to specjalna, większa wersja popularnego zestawu",,,0.08
+2026-05-05,2026-05-05,google,seo,wypasiony draminek opinie,brand,high,2,https://wypasionydraminek.pl/,true,,,,,0.1
+2026-05-05,2026-05-05,google,seo,wypasionydraminek.pl,brand,high,1,https://wypasionydraminek.pl/,true,,,,,0.1
+2026-05-05,2026-05-05,google,seo,wypasiony draminek,brand,high,3,https://wypasionydraminek.pl/,true,,,,,0.1
+2026-05-05,2026-05-05,google,seo,draminek jumbo,product,medium,,,false,,"allegro.pl, facebook.com, google.com",,,0.1
+2026-05-05,2026-05-05,google,seo,draminek dla dzieci,product,high,,,false,,"wezwijdoktora.pl, noclegi.pl, booksy.com",,,0.1
+2026-05-05,2026-05-05,google,seo,draminek.pl,brand,high,,,false,,,,'NoneType' object has no attribute 'strip',0.1
+2026-05-05,2026-05-05,google,seo,draminek sklep,brand,high,1,https://wypasionydraminek.pl/,true,,,,,0.1
+2026-05-05,2026-05-05,google,seo,duży draminek,product,high,,,false,,,,'NoneType' object has no attribute 'strip',0.1
+2026-05-05,2026-05-05,google,seo,draminek oryginalny,product,medium,3,https://www.draminek.pl/,true,,,,,0.1
+2026-05-05,2026-05-05,google,seo,napój dla dzieci draminek,product,high,,,false,,"wojanshop.pl, wojanek.pl, allegro.pl",,,0.1
+2026-05-05,2026-05-05,google,seo,draminek premium,product,medium,9,https://www.draminek.pl/,true,,,,,0.1
+2026-05-05,2026-05-05,google,seo,mały draminek,product,medium,48,http://draminek.pl/,true,,,,,0.1
+2026-05-05,2026-05-05,google,seo,dramatyczne picie dla dzieci,category,medium,,,false,,"naukawpolsce.pl, rynekzdrowia.pl, zywienie.medonet.pl",,,0.1
+2026-05-05,2026-05-05,google,seo,gdzie kupić draminek,category,high,,,false,,"plexinawymiar.pl, extrakominki.pl, romotop.pl",,,0.1
+2026-05-05,2026-05-05,google,seo,draminek hurt,category,medium,,,false,,"plexinawymiar.pl, instagram.com, infobel.com",,,0.1
+2026-05-05,2026-05-05,google,seo,draminek cena,product,high,88,https://www.draminek.pl/,true,,,,,0.1
+2026-05-05,2026-05-05,google,seo,draminek zamówienie online,category,medium,1,https://wypasionydraminek.pl/,true,,,,,0.1
+2026-05-05,2026-05-05,google,seo,draminek detal,category,low,,,false,,,,'NoneType' object has no attribute 'strip',0.1
+2026-05-05,2026-05-05,google,seo,draminek dostawa,category,medium,2,https://wypasionydraminek.pl/,true,,,,,0.1
+2026-05-05,2026-05-05,google,seo,draminek sklep internetowy,brand,high,,,false,,"skleprekinek.pl, facebook.com, spawarkainwertorowatig.pl",,,0.1
+2026-05-05,2026-05-05,google,seo,dramatyczny napój,category,low,,,false,,"pl.wikipedia.org, google.com, medonet.pl",,,0.1
+2026-05-05,2026-05-05,google,seo,napój dramatyczny Polska,category,low,,,false,,"rmf24.pl, reddit.com, historia.bibliotekaelblaska.pl",,,0.1
+2026-05-05,2026-05-05,google,seo,draminek wyprzedaż,product,low,,,false,,"kik.okazjum.pl, otomoto.pl, piecykowo.com.pl",,,0.1
+2026-05-05,2026-05-05,google,seo,napoje dla dzieci sklep,category,low,,,false,,"zdroweslodycze.pl, marketbio.pl, dm.pl",,,0.1
+2026-05-05,2026-05-05,google,seo,dobry napój dla dziecka,category,low,,,false,,"lunchmunch.pl, dziecisawazne.pl, olejznatury.pl",,,0.1
+2026-05-05,2026-05-05,google,seo,draminek promocja,product,medium,2,https://www.draminek.pl/,true,,,,,0.1
+2026-05-05,2026-05-05,google,seo,smaczny napój dla dzieci,category,low,,,false,,"kuchnialidla.pl, tedaria.pl, dziecisawazne.pl",,,0.1
+2026-05-05,2026-05-05,google,seo,napoje dla dzieci online,category,low,,,false,,"zdroweslodycze.pl, marketbio.pl, zakupy.biedronka.pl",,,0.1
+2026-05-05,2026-05-05,google,seo,bezpieczny napój dla dzieci,category,low,,,false,,"zdroweslodycze.pl, dziecisawazne.pl, lunchmunch.pl",,,0.1
+2026-05-05,2026-05-05,google,seo,draminek nowy smak,product,medium,2,https://wypasionydraminek.pl/,true,,,,,0.1
