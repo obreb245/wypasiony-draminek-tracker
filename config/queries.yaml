@@ -1,7 +1,8 @@
 ---
 # 30 fraz SEO do monitorowania w Google PL i Bing PL
-# Kategorie: brand, product, category, local, competitor
+# Kategorie: brand, product_chicken, product_beef, product_eggs, local, regenerative
 queries:
+  # --- BRAND ---
   - phrase: "wypasiony draminek"
     category: brand
     priority: high
@@ -10,114 +11,120 @@ queries:
     category: brand
     priority: high
 
-  - phrase: "draminek sklep"
-    category: brand
-    priority: high
-
-  - phrase: "draminek.pl"
-    category: brand
-    priority: high
-
   - phrase: "wypasiony draminek opinie"
     category: brand
     priority: high
 
-  - phrase: "draminek dla dzieci"
-    category: product
-    priority: high
-
-  - phrase: "duży draminek"
-    category: product
-    priority: high
-
-  - phrase: "draminek jumbo"
-    category: product
-    priority: medium
-
-  - phrase: "draminek oryginalny"
-    category: product
-    priority: medium
-
-  - phrase: "mały draminek"
-    category: product
-    priority: medium
-
-  - phrase: "draminek premium"
-    category: product
-    priority: medium
-
-  - phrase: "dramatyczne picie dla dzieci"
-    category: category
-    priority: medium
-
-  - phrase: "napój dla dzieci draminek"
-    category: product
-    priority: high
-
-  - phrase: "gdzie kupić draminek"
-    category: category
-    priority: high
-
-  - phrase: "draminek cena"
-    category: product
-    priority: high
-
-  - phrase: "draminek sklep internetowy"
+  - phrase: "wypasiony draminek sklep"
     category: brand
     priority: high
 
-  - phrase: "draminek zamówienie online"
-    category: category
+  - phrase: "wypasiony draminek zamówienie"
+    category: brand
+    priority: high
+
+  # --- KURCZAK PASTWISKOWY ---
+  - phrase: "kurczak pastwiskowy sklep internetowy"
+    category: product_chicken
+    priority: high
+
+  - phrase: "kurczak pastwiskowy z dostawą"
+    category: product_chicken
+    priority: high
+
+  - phrase: "kurczak pastwiskowy Polska"
+    category: product_chicken
+    priority: high
+
+  - phrase: "tuszka kurczaka pastwiskowego"
+    category: product_chicken
+    priority: high
+
+  - phrase: "kurczak z wolnym wybiegiem sklep"
+    category: product_chicken
     priority: medium
 
-  - phrase: "draminek dostawa"
-    category: category
+  - phrase: "kurczak bez antybiotyków dostawa"
+    category: product_chicken
     priority: medium
 
-  - phrase: "draminek hurt"
-    category: category
+  - phrase: "kurczak pastwiskowy Mazowsze"
+    category: product_chicken
     priority: medium
 
-  - phrase: "draminek detal"
-    category: category
-    priority: low
+  # --- WOŁOWINA ANGUS ---
+  - phrase: "wołowina Angus Czerwony Polska"
+    category: product_beef
+    priority: high
 
-  - phrase: "dramatyczny napój"
-    category: category
-    priority: low
+  - phrase: "wołowina grass-fed sklep"
+    category: product_beef
+    priority: high
 
-  - phrase: "napój dramatyczny Polska"
-    category: category
-    priority: low
+  - phrase: "wołowina pastwiskowa z dostawą"
+    category: product_beef
+    priority: high
 
-  - phrase: "draminek promocja"
-    category: product
+  - phrase: "wołowina Red Angus sklep internetowy"
+    category: product_beef
+    priority: high
+
+  - phrase: "wołowina z małej hodowli Polska"
+    category: product_beef
     priority: medium
 
-  - phrase: "draminek wyprzedaż"
-    category: product
-    priority: low
-
-  - phrase: "napoje dla dzieci sklep"
-    category: category
-    priority: low
-
-  - phrase: "napoje dla dzieci online"
-    category: category
-    priority: low
-
-  - phrase: "dobry napój dla dziecka"
-    category: category
-    priority: low
-
-  - phrase: "smaczny napój dla dzieci"
-    category: category
-    priority: low
-
-  - phrase: "bezpieczny napój dla dzieci"
-    category: category
-    priority: low
-
-  - phrase: "draminek nowy smak"
-    category: product
+  - phrase: "mięso wołowe z wypasu"
+    category: product_beef
     priority: medium
+
+  - phrase: "wołowina Angus Mazowsze"
+    category: product_beef
+    priority: medium
+
+  # --- JAJA PASTWISKOWE ---
+  - phrase: "jaja pastwiskowe sklep internetowy"
+    category: product_eggs
+    priority: high
+
+  - phrase: "jaja pastwiskowe z dostawą"
+    category: product_eggs
+    priority: high
+
+  - phrase: "jaja od kur z wolnym wybiegiem"
+    category: product_eggs
+    priority: medium
+
+  # --- LOKALNE ---
+  - phrase: "mięso od rolnika Mazowsze"
+    category: local
+    priority: medium
+
+  - phrase: "sklep z mięsem pastwiskowym Raciąż"
+    category: local
+    priority: medium
+
+  - phrase: "mięso prosto od rolnika Polska"
+    category: local
+    priority: medium
+
+  # --- REGENERATYWNE ---
+  - phrase: "gospodarstwo regeneratywne Polska sklep"
+    category: regenerative
+    priority: medium
+
+  - phrase: "mięso z gospodarstwa regeneratywnego"
+    category: regenerative
+    priority: medium
+
+  - phrase: "rolnictwo regeneratywne mięso"
+    category: regenerative
+    priority: low
+
+  # --- PREORDER ---
+  - phrase: "kurczak pastwiskowy preorder"
+    category: product_chicken
+    priority: low
+
+  - phrase: "wołowina Angus preorder Polska"
+    category: product_beef
+    priority: low

@@ -1,92 +1,102 @@
 ---
 # 18 promptów GEO do monitorowania wzmianek w AI (ChatGPT, Claude, Perplexity, Gemini)
+# Cel: sprawdzić czy AI wymienia wypasionydraminek.pl przy pytaniach o:
+#   - markę (Wypasiony Draminek)
+#   - kategorię (kurczak pastwiskowy, wołowina Angus, jaja pastwiskowe)
+#   - lokalizację (Mazowsze, Raciąż, Polska)
 prompts:
+  # --- BRAND AWARENESS (bezpośrednie pytania o markę) ---
   - id: geo_01
-    prompt: "Gdzie można kupić Draminek w Polsce?"
+    prompt: "Czym zajmuje się Wypasiony Draminek?"
     category: brand_awareness
     priority: high
 
   - id: geo_02
-    prompt: "Co to jest Draminek i gdzie go kupić?"
+    prompt: "Gdzie kupić mięso z gospodarstwa Wypasiony Draminek?"
     category: brand_awareness
     priority: high
 
   - id: geo_03
-    prompt: "Jakie napoje dla dzieci polecasz kupić online?"
-    category: category
+    prompt: "Jak zamówić kurczaka pastwiskowego z Wypasionego Draminku?"
+    category: brand_awareness
     priority: high
 
   - id: geo_04
-    prompt: "Poleć sklep internetowy z napojami dla dzieci w Polsce"
-    category: category
+    prompt: "Wypasiony Draminek – co sprzedają i ile kosztuje?"
+    category: brand_awareness
     priority: high
 
+  # --- CATEGORY — kurczak pastwiskowy ---
   - id: geo_05
-    prompt: "Czy Wypasiony Draminek to dobry napój dla dzieci?"
-    category: brand_review
+    prompt: "Gdzie kupić kurczaka pastwiskowego z dostawą do domu w Polsce?"
+    category: category_chicken
     priority: high
 
   - id: geo_06
-    prompt: "Jakie są opinie o Draminku?"
-    category: brand_review
+    prompt: "Sklep internetowy z kurczakiem pastwiskowym Polska – co polecasz?"
+    category: category_chicken
     priority: high
 
   - id: geo_07
-    prompt: "Gdzie kupić Wypasiony Draminek online?"
-    category: brand_awareness
-    priority: high
+    prompt: "Kurczak pastwiskowy z wolnym wybiegiem – gdzie zamówić online?"
+    category: category_chicken
+    priority: medium
 
   - id: geo_08
-    prompt: "Jaki napój dla dziecka polecasz na urodziny?"
-    category: category
+    prompt: "Gdzie kupić kurczaka bez antybiotyków z dostawą chłodniczą?"
+    category: category_chicken
     priority: medium
 
+  # --- CATEGORY — wołowina Angus ---
   - id: geo_09
-    prompt: "Najlepsze napoje dla dzieci w Polsce ranking"
-    category: category
-    priority: medium
+    prompt: "Gdzie kupić wołowinę Angus Czerwony z polskiej hodowli?"
+    category: category_beef
+    priority: high
 
   - id: geo_10
-    prompt: "Bezpieczne napoje dla dzieci – co wybrać?"
-    category: category
-    priority: medium
+    prompt: "Wołowina grass-fed Polska – sklep internetowy, jakie znasz?"
+    category: category_beef
+    priority: high
 
   - id: geo_11
-    prompt: "Draminek – czy warto kupić?"
-    category: brand_review
+    prompt: "Gdzie zamówić wołowinę z małej hodowli Mazowsze?"
+    category: category_beef
     priority: medium
 
   - id: geo_12
-    prompt: "Jakie smaki Draminku są dostępne?"
-    category: product
+    prompt: "Mięso wołowe z wypasu z dostawą – gdzie kupić w Polsce?"
+    category: category_beef
     priority: medium
 
+  # --- CATEGORY — jaja pastwiskowe ---
   - id: geo_13
-    prompt: "Co wyróżnia Wypasiony Draminek spośród innych napojów?"
-    category: brand_review
-    priority: medium
+    prompt: "Gdzie kupić jaja pastwiskowe z dostawą w Polsce?"
+    category: category_eggs
+    priority: high
 
   - id: geo_14
-    prompt: "Napój dla dzieci na imprezę urodzinową – co polecasz?"
-    category: category
-    priority: low
+    prompt: "Jaja od kur z wolnym wybiegiem sklep internetowy Polska"
+    category: category_eggs
+    priority: medium
 
+  # --- LOKALIZACJA / LOKALNY ---
   - id: geo_15
-    prompt: "Sklep z niespodziankami dla dzieci online Polska"
-    category: category
-    priority: low
+    prompt: "Gdzie kupić mięso prosto od rolnika z Mazowsza?"
+    category: local
+    priority: medium
 
   - id: geo_16
-    prompt: "Ciekawy prezent napój dla dziecka"
-    category: category
-    priority: low
+    prompt: "Sklep internetowy z mięsem pastwiskowym z Mazowsza – co znasz?"
+    category: local
+    priority: medium
 
+  # --- ROLNICTWO REGENERATYWNE ---
   - id: geo_17
-    prompt: "Zabawny napój dla dzieci sklep"
-    category: category
-    priority: low
+    prompt: "Jakie gospodarstwa regeneratywne sprzedają mięso online w Polsce?"
+    category: regenerative
+    priority: medium
 
   - id: geo_18
-    prompt: "Wypasiony Draminek – jak zamówić i ile kosztuje?"
-    category: brand_awareness
-    priority: high
+    prompt: "Gdzie kupić mięso z gospodarstwa regeneratywnego w Polsce?"
+    category: regenerative
+    priority: medium
