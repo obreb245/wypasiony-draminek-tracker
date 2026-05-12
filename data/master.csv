@@ -1,64 +1,4 @@
 run_date,run_id,engine,query_type,query_or_prompt,category,priority,position,url_found,domain_matched,mention_text,response_excerpt,raw_response_path,error,cost_pln
-2026-05-12,2026-05-12,gsc,seo,wypasiony draminek,brand,high,5.2,https://wypasionydraminek.pl/,true,,clicks=12 impressions=340 ctr=3.53%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,wypasionydraminek.pl,brand,high,8.1,https://wypasionydraminek.pl/,true,,clicks=3 impressions=89 ctr=3.37%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,wypasiony draminek opinie,brand,high,,,false,,no data,,,0.00
-2026-05-12,2026-05-12,gsc,seo,wypasiony draminek sklep,brand,high,1.0,https://wypasionydraminek.pl/,true,,clicks=45 impressions=210 ctr=21.43%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,wypasiony draminek zamówienie,brand,high,23.4,https://wypasionydraminek.pl/,true,,clicks=1 impressions=56 ctr=1.79%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,kurczak pastwiskowy sklep internetowy,product_chicken,high,,,false,,no data,,,0.00
-2026-05-12,2026-05-12,gsc,seo,kurczak pastwiskowy z dostawą,product_chicken,high,5.2,https://wypasionydraminek.pl/,true,,clicks=12 impressions=340 ctr=3.53%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,kurczak pastwiskowy Polska,product_chicken,high,8.1,https://wypasionydraminek.pl/,true,,clicks=3 impressions=89 ctr=3.37%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,tuszka kurczaka pastwiskowego,product_chicken,high,,,false,,no data,,,0.00
-2026-05-12,2026-05-12,gsc,seo,kurczak z wolnym wybiegiem sklep,product_chicken,medium,1.0,https://wypasionydraminek.pl/,true,,clicks=45 impressions=210 ctr=21.43%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,kurczak bez antybiotyków dostawa,product_chicken,medium,23.4,https://wypasionydraminek.pl/,true,,clicks=1 impressions=56 ctr=1.79%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,kurczak pastwiskowy Mazowsze,product_chicken,medium,,,false,,no data,,,0.00
-2026-05-12,2026-05-12,gsc,seo,wołowina Angus Czerwony Polska,product_beef,high,5.2,https://wypasionydraminek.pl/,true,,clicks=12 impressions=340 ctr=3.53%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,wołowina grass-fed sklep,product_beef,high,8.1,https://wypasionydraminek.pl/,true,,clicks=3 impressions=89 ctr=3.37%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,wołowina pastwiskowa z dostawą,product_beef,high,,,false,,no data,,,0.00
-2026-05-12,2026-05-12,gsc,seo,wołowina Red Angus sklep internetowy,product_beef,high,1.0,https://wypasionydraminek.pl/,true,,clicks=45 impressions=210 ctr=21.43%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,wołowina z małej hodowli Polska,product_beef,medium,23.4,https://wypasionydraminek.pl/,true,,clicks=1 impressions=56 ctr=1.79%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,mięso wołowe z wypasu,product_beef,medium,,,false,,no data,,,0.00
-2026-05-12,2026-05-12,gsc,seo,wołowina Angus Mazowsze,product_beef,medium,5.2,https://wypasionydraminek.pl/,true,,clicks=12 impressions=340 ctr=3.53%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,jaja pastwiskowe sklep internetowy,product_eggs,high,8.1,https://wypasionydraminek.pl/,true,,clicks=3 impressions=89 ctr=3.37%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,jaja pastwiskowe z dostawą,product_eggs,high,,,false,,no data,,,0.00
-2026-05-12,2026-05-12,gsc,seo,jaja od kur z wolnym wybiegiem,product_eggs,medium,1.0,https://wypasionydraminek.pl/,true,,clicks=45 impressions=210 ctr=21.43%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,mięso od rolnika Mazowsze,local,medium,23.4,https://wypasionydraminek.pl/,true,,clicks=1 impressions=56 ctr=1.79%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,sklep z mięsem pastwiskowym Raciąż,local,medium,,,false,,no data,,,0.00
-2026-05-12,2026-05-12,gsc,seo,mięso prosto od rolnika Polska,local,medium,5.2,https://wypasionydraminek.pl/,true,,clicks=12 impressions=340 ctr=3.53%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,gospodarstwo regeneratywne Polska sklep,regenerative,medium,8.1,https://wypasionydraminek.pl/,true,,clicks=3 impressions=89 ctr=3.37%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,mięso z gospodarstwa regeneratywnego,regenerative,medium,,,false,,no data,,,0.00
-2026-05-12,2026-05-12,gsc,seo,rolnictwo regeneratywne mięso,regenerative,low,1.0,https://wypasionydraminek.pl/,true,,clicks=45 impressions=210 ctr=21.43%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,kurczak pastwiskowy preorder,product_chicken,low,23.4,https://wypasionydraminek.pl/,true,,clicks=1 impressions=56 ctr=1.79%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,wołowina Angus preorder Polska,product_beef,low,,,false,,no data,,,0.00
-2026-05-12,2026-05-12,gsc,seo,wypasiony draminek,brand,high,5.2,https://wypasionydraminek.pl/,true,,clicks=12 impressions=340 ctr=3.53%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,wypasionydraminek.pl,brand,high,8.1,https://wypasionydraminek.pl/,true,,clicks=3 impressions=89 ctr=3.37%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,wypasiony draminek opinie,brand,high,,,false,,no data,,,0.00
-2026-05-12,2026-05-12,gsc,seo,wypasiony draminek sklep,brand,high,1.0,https://wypasionydraminek.pl/,true,,clicks=45 impressions=210 ctr=21.43%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,wypasiony draminek zamówienie,brand,high,23.4,https://wypasionydraminek.pl/,true,,clicks=1 impressions=56 ctr=1.79%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,kurczak pastwiskowy sklep internetowy,product_chicken,high,,,false,,no data,,,0.00
-2026-05-12,2026-05-12,gsc,seo,kurczak pastwiskowy z dostawą,product_chicken,high,5.2,https://wypasionydraminek.pl/,true,,clicks=12 impressions=340 ctr=3.53%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,kurczak pastwiskowy Polska,product_chicken,high,8.1,https://wypasionydraminek.pl/,true,,clicks=3 impressions=89 ctr=3.37%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,tuszka kurczaka pastwiskowego,product_chicken,high,,,false,,no data,,,0.00
-2026-05-12,2026-05-12,gsc,seo,kurczak z wolnym wybiegiem sklep,product_chicken,medium,1.0,https://wypasionydraminek.pl/,true,,clicks=45 impressions=210 ctr=21.43%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,kurczak bez antybiotyków dostawa,product_chicken,medium,23.4,https://wypasionydraminek.pl/,true,,clicks=1 impressions=56 ctr=1.79%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,kurczak pastwiskowy Mazowsze,product_chicken,medium,,,false,,no data,,,0.00
-2026-05-12,2026-05-12,gsc,seo,wołowina Angus Czerwony Polska,product_beef,high,5.2,https://wypasionydraminek.pl/,true,,clicks=12 impressions=340 ctr=3.53%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,wołowina grass-fed sklep,product_beef,high,8.1,https://wypasionydraminek.pl/,true,,clicks=3 impressions=89 ctr=3.37%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,wołowina pastwiskowa z dostawą,product_beef,high,,,false,,no data,,,0.00
-2026-05-12,2026-05-12,gsc,seo,wołowina Red Angus sklep internetowy,product_beef,high,1.0,https://wypasionydraminek.pl/,true,,clicks=45 impressions=210 ctr=21.43%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,wołowina z małej hodowli Polska,product_beef,medium,23.4,https://wypasionydraminek.pl/,true,,clicks=1 impressions=56 ctr=1.79%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,mięso wołowe z wypasu,product_beef,medium,,,false,,no data,,,0.00
-2026-05-12,2026-05-12,gsc,seo,wołowina Angus Mazowsze,product_beef,medium,5.2,https://wypasionydraminek.pl/,true,,clicks=12 impressions=340 ctr=3.53%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,jaja pastwiskowe sklep internetowy,product_eggs,high,8.1,https://wypasionydraminek.pl/,true,,clicks=3 impressions=89 ctr=3.37%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,jaja pastwiskowe z dostawą,product_eggs,high,,,false,,no data,,,0.00
-2026-05-12,2026-05-12,gsc,seo,jaja od kur z wolnym wybiegiem,product_eggs,medium,1.0,https://wypasionydraminek.pl/,true,,clicks=45 impressions=210 ctr=21.43%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,mięso od rolnika Mazowsze,local,medium,23.4,https://wypasionydraminek.pl/,true,,clicks=1 impressions=56 ctr=1.79%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,sklep z mięsem pastwiskowym Raciąż,local,medium,,,false,,no data,,,0.00
-2026-05-12,2026-05-12,gsc,seo,mięso prosto od rolnika Polska,local,medium,5.2,https://wypasionydraminek.pl/,true,,clicks=12 impressions=340 ctr=3.53%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,gospodarstwo regeneratywne Polska sklep,regenerative,medium,8.1,https://wypasionydraminek.pl/,true,,clicks=3 impressions=89 ctr=3.37%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,mięso z gospodarstwa regeneratywnego,regenerative,medium,,,false,,no data,,,0.00
-2026-05-12,2026-05-12,gsc,seo,rolnictwo regeneratywne mięso,regenerative,low,1.0,https://wypasionydraminek.pl/,true,,clicks=45 impressions=210 ctr=21.43%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,kurczak pastwiskowy preorder,product_chicken,low,23.4,https://wypasionydraminek.pl/,true,,clicks=1 impressions=56 ctr=1.79%,,,0.00
-2026-05-12,2026-05-12,gsc,seo,wołowina Angus preorder Polska,product_beef,low,,,false,,no data,,,0.00
 2026-05-12,2026-05-12,anthropic,geo,Czym zajmuje się Wypasiony Draminek?,confirmed,high,,,true,wypasiony draminek,"# Wypasiony Draminek
 
 **Wypasiony Draminek** to projekt Ewy Brzeskiej,",,,0.05
@@ -188,3 +128,33 @@ Jeśli określenie ""Wypasiony Draminek"" odnosi się do konkretnego produktu lu
 2026-05-12,2026-05-12,google,seo,mięso z gospodarstwa regeneratywnego,regenerative,medium,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
 2026-05-12,2026-05-12,google,seo,rolnictwo regeneratywne mięso,regenerative,low,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
 2026-05-12,2026-05-12,google,seo,wołowina Angus preorder Polska,product_beef,low,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
+2026-05-12,2026-05-12,gsc,seo,wypasiony draminek,brand,high,3.3,https://wypasionydraminek.pl/,true,,clicks=5 impressions=16 ctr=31.25%,,,0.00
+2026-05-12,2026-05-12,gsc,seo,wypasionydraminek.pl,brand,high,,,false,,brak danych (eksport: 2026-05-12),,,0.00
+2026-05-12,2026-05-12,gsc,seo,wypasiony draminek opinie,brand,high,,,false,,brak danych (eksport: 2026-05-12),,,0.00
+2026-05-12,2026-05-12,gsc,seo,wypasiony draminek sklep,brand,high,,,false,,brak danych (eksport: 2026-05-12),,,0.00
+2026-05-12,2026-05-12,gsc,seo,wypasiony draminek zamówienie,brand,high,,,false,,brak danych (eksport: 2026-05-12),,,0.00
+2026-05-12,2026-05-12,gsc,seo,kurczak pastwiskowy sklep internetowy,product_chicken,high,,,false,,brak danych (eksport: 2026-05-12),,,0.00
+2026-05-12,2026-05-12,gsc,seo,kurczak pastwiskowy z dostawą,product_chicken,high,,,false,,brak danych (eksport: 2026-05-12),,,0.00
+2026-05-12,2026-05-12,gsc,seo,kurczak pastwiskowy Polska,product_chicken,high,,,false,,brak danych (eksport: 2026-05-12),,,0.00
+2026-05-12,2026-05-12,gsc,seo,tuszka kurczaka pastwiskowego,product_chicken,high,,,false,,brak danych (eksport: 2026-05-12),,,0.00
+2026-05-12,2026-05-12,gsc,seo,kurczak z wolnym wybiegiem sklep,product_chicken,medium,,,false,,brak danych (eksport: 2026-05-12),,,0.00
+2026-05-12,2026-05-12,gsc,seo,kurczak bez antybiotyków dostawa,product_chicken,medium,,,false,,brak danych (eksport: 2026-05-12),,,0.00
+2026-05-12,2026-05-12,gsc,seo,kurczak pastwiskowy Mazowsze,product_chicken,medium,,,false,,brak danych (eksport: 2026-05-12),,,0.00
+2026-05-12,2026-05-12,gsc,seo,wołowina Angus Czerwony Polska,product_beef,high,,,false,,brak danych (eksport: 2026-05-12),,,0.00
+2026-05-12,2026-05-12,gsc,seo,wołowina grass-fed sklep,product_beef,high,,,false,,brak danych (eksport: 2026-05-12),,,0.00
+2026-05-12,2026-05-12,gsc,seo,wołowina pastwiskowa z dostawą,product_beef,high,,,false,,brak danych (eksport: 2026-05-12),,,0.00
+2026-05-12,2026-05-12,gsc,seo,wołowina Red Angus sklep internetowy,product_beef,high,,,false,,brak danych (eksport: 2026-05-12),,,0.00
+2026-05-12,2026-05-12,gsc,seo,wołowina z małej hodowli Polska,product_beef,medium,,,false,,brak danych (eksport: 2026-05-12),,,0.00
+2026-05-12,2026-05-12,gsc,seo,mięso wołowe z wypasu,product_beef,medium,,,false,,brak danych (eksport: 2026-05-12),,,0.00
+2026-05-12,2026-05-12,gsc,seo,wołowina Angus Mazowsze,product_beef,medium,,,false,,brak danych (eksport: 2026-05-12),,,0.00
+2026-05-12,2026-05-12,gsc,seo,jaja pastwiskowe sklep internetowy,product_eggs,high,,,false,,brak danych (eksport: 2026-05-12),,,0.00
+2026-05-12,2026-05-12,gsc,seo,jaja pastwiskowe z dostawą,product_eggs,high,,,false,,brak danych (eksport: 2026-05-12),,,0.00
+2026-05-12,2026-05-12,gsc,seo,jaja od kur z wolnym wybiegiem,product_eggs,medium,,,false,,brak danych (eksport: 2026-05-12),,,0.00
+2026-05-12,2026-05-12,gsc,seo,mięso od rolnika Mazowsze,local,medium,,,false,,brak danych (eksport: 2026-05-12),,,0.00
+2026-05-12,2026-05-12,gsc,seo,sklep z mięsem pastwiskowym Raciąż,local,medium,,,false,,brak danych (eksport: 2026-05-12),,,0.00
+2026-05-12,2026-05-12,gsc,seo,mięso prosto od rolnika Polska,local,medium,,,false,,brak danych (eksport: 2026-05-12),,,0.00
+2026-05-12,2026-05-12,gsc,seo,gospodarstwo regeneratywne Polska sklep,regenerative,medium,,,false,,brak danych (eksport: 2026-05-12),,,0.00
+2026-05-12,2026-05-12,gsc,seo,mięso z gospodarstwa regeneratywnego,regenerative,medium,,,false,,brak danych (eksport: 2026-05-12),,,0.00
+2026-05-12,2026-05-12,gsc,seo,rolnictwo regeneratywne mięso,regenerative,low,,,false,,brak danych (eksport: 2026-05-12),,,0.00
+2026-05-12,2026-05-12,gsc,seo,kurczak pastwiskowy preorder,product_chicken,low,,,false,,brak danych (eksport: 2026-05-12),,,0.00
+2026-05-12,2026-05-12,gsc,seo,wołowina Angus preorder Polska,product_beef,low,,,false,,brak danych (eksport: 2026-05-12),,,0.00
