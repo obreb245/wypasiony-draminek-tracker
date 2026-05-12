@@ -12,3 +12,8 @@ build/
 data/runs/*/
 *.log
 .DS_Store
+
+# Google Cloud service account keys
+*-service-account*.json
+wypasiony-*.json
+*credentials*.json
