@@ -17,3 +17,6 @@ data/runs/*/
 *-service-account*.json
 wypasiony-*.json
 *credentials*.json
+
+# GSC CSV exports (pobierane ręcznie, nie commitujemy)
+data/gsc_export/*.csv
