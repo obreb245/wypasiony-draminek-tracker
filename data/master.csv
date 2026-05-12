@@ -1,1 +1,119 @@
 run_date,run_id,engine,query_type,query_or_prompt,category,priority,position,url_found,domain_matched,mention_text,response_excerpt,raw_response_path,error,cost_pln
+2026-05-12,2026-05-12,anthropic,geo,Czym zajmuje się Wypasiony Draminek?,confirmed,high,,,true,wypasiony draminek,"# Wypasiony Draminek
+
+**Wypasiony Draminek** to polski kanał YouTube p",,,0.05
+2026-05-12,2026-05-12,anthropic,geo,Czym zajmuje się Wypasiony Draminek?,confirmed,high,,,true,wypasiony draminek,"# Wypasiony Draminek
+
+**Wypasiony Draminek** to polski kanał YouTube prowadzony przez Bartos",,,0.05
+2026-05-12,2026-05-12,anthropic,geo,Czym zajmuje się Wypasiony Draminek?,ambiguous,high,,,true,draminek,"# Wypasiony Draminek
+
+**Wypasiony Draminek** to polski kanał YouTube p",,,0.05
+2026-05-12,2026-05-12,anthropic,geo,Czym zajmuje się Wypasiony Draminek?,ambiguous,high,,,true,draminek,"# Wypasiony Draminek
+
+**Wypasiony Draminek** to polski kanał YouTube prowadzony przez Bartos",,,0.05
+2026-05-12,2026-05-12,anthropic,geo,Gdzie kupić mięso z gospodarstwa Wypasiony Draminek?,confirmed,high,,,true,wypasiony draminek,"# Zakup mięsa z gospodarstwa Wypasiony Draminek
+
+Niestety nie mam dostępu do aktualnych informacj",,,0.05
+2026-05-12,2026-05-12,anthropic,geo,Gdzie kupić mięso z gospodarstwa Wypasiony Draminek?,confirmed,high,,,true,wypasiony draminek,"dostępu do aktualnych informacji o gospodarstwie ""Wypasiony Draminek"" ani sposobach zakupu ich produktów.
+
+## Jak znal",,,0.05
+2026-05-12,2026-05-12,anthropic,geo,Gdzie kupić mięso z gospodarstwa Wypasiony Draminek?,confirmed,high,,,true,wypasiony draminek,"o zakupie:
+
+1. **Wyszukaj w internecie** - wpisz ""Wypasiony Draminek"" w Google
+2. **Sprawdź media społecznościowe** - ",,,0.05
+2026-05-12,2026-05-12,anthropic,geo,Gdzie kupić mięso z gospodarstwa Wypasiony Draminek?,ambiguous,high,,,true,draminek,"# Zakup mięsa z gospodarstwa Wypasiony Draminek
+
+Niestety nie mam dostępu do aktualnych informacj",,,0.05
+2026-05-12,2026-05-12,anthropic,geo,Gdzie kupić mięso z gospodarstwa Wypasiony Draminek?,ambiguous,high,,,true,draminek," aktualnych informacji o gospodarstwie ""Wypasiony Draminek"" ani sposobach zakupu ich produktów.
+
+## Jak znal",,,0.05
+2026-05-12,2026-05-12,anthropic,geo,Gdzie kupić mięso z gospodarstwa Wypasiony Draminek?,ambiguous,high,,,true,draminek,"
+
+1. **Wyszukaj w internecie** - wpisz ""Wypasiony Draminek"" w Google
+2. **Sprawdź media społecznościowe** - ",,,0.05
+2026-05-12,2026-05-12,anthropic,geo,Jak zamówić kurczaka pastwiskowego z Wypasionego Draminku?,brand_awareness,high,,,false,,,,,0.05
+2026-05-12,2026-05-12,anthropic,geo,Wypasiony Draminek – co sprzedają i ile kosztuje?,confirmed,high,,,true,wypasiony draminek,"# Wypasiony Draminek
+
+To krakowska **cukiernia i kawiarnia** znana z a",,,0.05
+2026-05-12,2026-05-12,anthropic,geo,Wypasiony Draminek – co sprzedają i ile kosztuje?,confirmed,high,,,true,wypasiony draminek,"- Wypieki na specjalne okazje
+
+## Ceny:
+
+Typowo w Wypasiony Draminek:
+- **Kawałek ciasta**: około **12-18 zł**
+- **Kaw",,,0.05
+2026-05-12,2026-05-12,anthropic,geo,Wypasiony Draminek – co sprzedają i ile kosztuje?,ambiguous,high,,,true,draminek,"# Wypasiony Draminek
+
+To krakowska **cukiernia i kawiarnia** znana z a",,,0.05
+2026-05-12,2026-05-12,anthropic,geo,Wypasiony Draminek – co sprzedają i ile kosztuje?,ambiguous,high,,,true,draminek,"na specjalne okazje
+
+## Ceny:
+
+Typowo w Wypasiony Draminek:
+- **Kawałek ciasta**: około **12-18 zł**
+- **Kaw",,,0.05
+2026-05-12,2026-05-12,anthropic,geo,Gdzie kupić kurczaka pastwiskowego z dostawą do domu w Polsce?,category_chicken,high,,,false,,,,,0.05
+2026-05-12,2026-05-12,anthropic,geo,Sklep internetowy z kurczakiem pastwiskowym Polska – co polecasz?,category_chicken,high,,,false,,,,,0.05
+2026-05-12,2026-05-12,anthropic,geo,Kurczak pastwiskowy z wolnym wybiegiem – gdzie zamówić online?,category_chicken,medium,,,false,,,,,0.05
+2026-05-12,2026-05-12,anthropic,geo,Gdzie kupić kurczaka bez antybiotyków z dostawą chłodniczą?,category_chicken,medium,,,false,,,,,0.05
+2026-05-12,2026-05-12,anthropic,geo,Gdzie kupić wołowinę Angus Czerwony z polskiej hodowli?,category_beef,high,,,false,,,,,0.05
+2026-05-12,2026-05-12,anthropic,geo,"Wołowina grass-fed Polska – sklep internetowy, jakie znasz?",category_beef,high,,,false,,,,,0.05
+2026-05-12,2026-05-12,anthropic,geo,Gdzie zamówić wołowinę z małej hodowli Mazowsze?,category_beef,medium,,,false,,,,,0.05
+2026-05-12,2026-05-12,anthropic,geo,Mięso wołowe z wypasu z dostawą – gdzie kupić w Polsce?,category_beef,medium,,,false,,,,,0.05
+2026-05-12,2026-05-12,anthropic,geo,Gdzie kupić jaja pastwiskowe z dostawą w Polsce?,category_eggs,high,,,false,,,,,0.05
+2026-05-12,2026-05-12,anthropic,geo,Jaja od kur z wolnym wybiegiem sklep internetowy Polska,category_eggs,medium,,,false,,,,,0.05
+2026-05-12,2026-05-12,anthropic,geo,Gdzie kupić mięso prosto od rolnika z Mazowsza?,local,medium,,,false,,,,,0.05
+2026-05-12,2026-05-12,anthropic,geo,Sklep internetowy z mięsem pastwiskowym z Mazowsza – co znasz?,local,medium,,,false,,,,,0.05
+2026-05-12,2026-05-12,anthropic,geo,Jakie gospodarstwa regeneratywne sprzedają mięso online w Polsce?,regenerative,medium,,,false,,,,,0.05
+2026-05-12,2026-05-12,anthropic,geo,Gdzie kupić mięso z gospodarstwa regeneratywnego w Polsce?,regenerative,medium,,,false,,,,,0.05
+2026-05-12,2026-05-12,openai,geo,Czym zajmuje się Wypasiony Draminek?,confirmed,high,,,true,wypasiony draminek,"Niestety, nie posiadam informacji na temat ""Wypasiony Draminek"". Może to być lokalna firma, miejsce lub inny pod",,,0.08
+2026-05-12,2026-05-12,openai,geo,Czym zajmuje się Wypasiony Draminek?,ambiguous,high,,,true,draminek,"tety, nie posiadam informacji na temat ""Wypasiony Draminek"". Może to być lokalna firma, miejsce lub inny pod",,,0.08
+2026-05-12,2026-05-12,openai,geo,Gdzie kupić mięso z gospodarstwa Wypasiony Draminek?,confirmed,high,,,true,wypasiony draminek,"Mięso z gospodarstwa Wypasiony Draminek można kupić bezpośrednio u nich na gospodarstwie,",,,0.08
+2026-05-12,2026-05-12,openai,geo,Gdzie kupić mięso z gospodarstwa Wypasiony Draminek?,ambiguous,high,,,true,draminek,"Mięso z gospodarstwa Wypasiony Draminek można kupić bezpośrednio u nich na gospodarstwie,",,,0.08
+2026-05-12,2026-05-12,openai,geo,Jak zamówić kurczaka pastwiskowego z Wypasionego Draminku?,brand_awareness,high,,,false,,,,,0.08
+2026-05-12,2026-05-12,openai,geo,Wypasiony Draminek – co sprzedają i ile kosztuje?,confirmed,high,,,true,wypasiony draminek,"Wypasiony Draminek to popularny produkt w Polsce, który zazwyczaj je",,,0.08
+2026-05-12,2026-05-12,openai,geo,Wypasiony Draminek – co sprzedają i ile kosztuje?,ambiguous,high,,,true,draminek,"Wypasiony Draminek to popularny produkt w Polsce, który zazwyczaj je",,,0.08
+2026-05-12,2026-05-12,openai,geo,Gdzie kupić kurczaka pastwiskowego z dostawą do domu w Polsce?,category_chicken,high,,,false,,,,,0.08
+2026-05-12,2026-05-12,openai,geo,Sklep internetowy z kurczakiem pastwiskowym Polska – co polecasz?,category_chicken,high,,,false,,,,,0.08
+2026-05-12,2026-05-12,openai,geo,Kurczak pastwiskowy z wolnym wybiegiem – gdzie zamówić online?,category_chicken,medium,,,false,,,,,0.08
+2026-05-12,2026-05-12,openai,geo,Gdzie kupić kurczaka bez antybiotyków z dostawą chłodniczą?,category_chicken,medium,,,false,,,,,0.08
+2026-05-12,2026-05-12,openai,geo,Gdzie kupić wołowinę Angus Czerwony z polskiej hodowli?,category_beef,high,,,false,,,,,0.08
+2026-05-12,2026-05-12,openai,geo,"Wołowina grass-fed Polska – sklep internetowy, jakie znasz?",category_beef,high,,,false,,,,,0.08
+2026-05-12,2026-05-12,openai,geo,Gdzie zamówić wołowinę z małej hodowli Mazowsze?,category_beef,medium,,,false,,,,,0.08
+2026-05-12,2026-05-12,openai,geo,Mięso wołowe z wypasu z dostawą – gdzie kupić w Polsce?,category_beef,medium,,,false,,,,,0.08
+2026-05-12,2026-05-12,openai,geo,Gdzie kupić jaja pastwiskowe z dostawą w Polsce?,category_eggs,high,,,false,,,,,0.08
+2026-05-12,2026-05-12,openai,geo,Jaja od kur z wolnym wybiegiem sklep internetowy Polska,category_eggs,medium,,,false,,,,,0.08
+2026-05-12,2026-05-12,openai,geo,Gdzie kupić mięso prosto od rolnika z Mazowsza?,local,medium,,,false,,,,,0.08
+2026-05-12,2026-05-12,openai,geo,Sklep internetowy z mięsem pastwiskowym z Mazowsza – co znasz?,local,medium,,,false,,,,,0.08
+2026-05-12,2026-05-12,openai,geo,Jakie gospodarstwa regeneratywne sprzedają mięso online w Polsce?,regenerative,medium,,,false,,,,,0.08
+2026-05-12,2026-05-12,openai,geo,Gdzie kupić mięso z gospodarstwa regeneratywnego w Polsce?,regenerative,medium,,,false,,,,,0.08
+2026-05-12,2026-05-12,google,seo,wypasiony draminek opinie,brand,high,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
+2026-05-12,2026-05-12,google,seo,wypasionydraminek.pl,brand,high,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
+2026-05-12,2026-05-12,google,seo,wypasiony draminek zamówienie,brand,high,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
+2026-05-12,2026-05-12,google,seo,wypasiony draminek,brand,high,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
+2026-05-12,2026-05-12,google,seo,wypasiony draminek sklep,brand,high,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
+2026-05-12,2026-05-12,google,seo,kurczak z wolnym wybiegiem sklep,product_chicken,medium,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
+2026-05-12,2026-05-12,google,seo,tuszka kurczaka pastwiskowego,product_chicken,high,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
+2026-05-12,2026-05-12,google,seo,kurczak pastwiskowy sklep internetowy,product_chicken,high,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
+2026-05-12,2026-05-12,google,seo,kurczak pastwiskowy Polska,product_chicken,high,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
+2026-05-12,2026-05-12,google,seo,kurczak pastwiskowy z dostawą,product_chicken,high,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
+2026-05-12,2026-05-12,google,seo,kurczak bez antybiotyków dostawa,product_chicken,medium,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
+2026-05-12,2026-05-12,google,seo,kurczak pastwiskowy Mazowsze,product_chicken,medium,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
+2026-05-12,2026-05-12,google,seo,wołowina pastwiskowa z dostawą,product_beef,high,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
+2026-05-12,2026-05-12,google,seo,wołowina Angus Czerwony Polska,product_beef,high,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
+2026-05-12,2026-05-12,google,seo,wołowina grass-fed sklep,product_beef,high,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
+2026-05-12,2026-05-12,google,seo,wołowina Red Angus sklep internetowy,product_beef,high,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
+2026-05-12,2026-05-12,google,seo,jaja pastwiskowe sklep internetowy,product_eggs,high,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
+2026-05-12,2026-05-12,google,seo,wołowina z małej hodowli Polska,product_beef,medium,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
+2026-05-12,2026-05-12,google,seo,wołowina Angus Mazowsze,product_beef,medium,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
+2026-05-12,2026-05-12,google,seo,mięso wołowe z wypasu,product_beef,medium,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
+2026-05-12,2026-05-12,google,seo,jaja pastwiskowe z dostawą,product_eggs,high,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
+2026-05-12,2026-05-12,google,seo,jaja od kur z wolnym wybiegiem,product_eggs,medium,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
+2026-05-12,2026-05-12,google,seo,mięso od rolnika Mazowsze,local,medium,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
+2026-05-12,2026-05-12,google,seo,sklep z mięsem pastwiskowym Raciąż,local,medium,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
+2026-05-12,2026-05-12,google,seo,mięso prosto od rolnika Polska,local,medium,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
+2026-05-12,2026-05-12,google,seo,gospodarstwo regeneratywne Polska sklep,regenerative,medium,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
+2026-05-12,2026-05-12,google,seo,mięso z gospodarstwa regeneratywnego,regenerative,medium,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
+2026-05-12,2026-05-12,google,seo,rolnictwo regeneratywne mięso,regenerative,low,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
+2026-05-12,2026-05-12,google,seo,kurczak pastwiskowy preorder,product_chicken,low,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
+2026-05-12,2026-05-12,google,seo,wołowina Angus preorder Polska,product_beef,low,,,false,,,,402 Client Error: Payment Required for url: https://api.dataforseo.com/v3/serp/google/organic/live/advanced,0.1
