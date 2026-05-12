@@ -18,9 +18,9 @@ MASTER_CSV = "data/master.csv"
 RUNS_DIR = "data/runs"
 DOCS_DIR = "docs"
 
-ALL_ENGINES = ["anthropic", "openai", "perplexity", "gemini", "google", "bing"]
+ALL_ENGINES = ["anthropic", "openai", "perplexity", "gemini", "gsc", "google", "bing"]
 AI_ENGINES = ["anthropic", "openai", "perplexity", "gemini"]
-SEO_ENGINES = ["google", "bing"]
+SEO_ENGINES = ["gsc", "google", "bing"]
 
 
 def load_yaml(path: str) -> dict:
@@ -41,6 +41,9 @@ def get_engine(name: str, settings: dict, config: dict):
     elif name == "gemini":
         from src.engines.gemini import GeminiEngine
         return GeminiEngine(settings, config)
+    elif name == "gsc":
+        from src.engines.gsc import GSCEngine
+        return GSCEngine(settings, config)
     elif name == "google":
         from src.engines.google import GoogleEngine
         return GoogleEngine(settings, config)

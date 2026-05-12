@@ -29,6 +29,8 @@ engines:
       model: "gemini-1.5-pro"
       max_tokens: 1024
   seo:
+    gsc:
+      lookback_days: 28   # dni wstecz do GSC (dane z opóźnieniem ~3 dni)
     google:
       depth: 100
       language_code: "pl"
@@ -54,5 +56,6 @@ cost_per_query_pln:
   openai: 0.08
   perplexity: 0.03
   gemini: 0.02
+  gsc: 0.00
   google: 0.10
   bing: 0.05
